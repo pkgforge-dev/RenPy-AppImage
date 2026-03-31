@@ -34,5 +34,6 @@ make-aur-package python-sphinx_rtd_dark_mode
 # if [ "${DEVEL_RELEASE-}" = 1 ]; then
  	#make-aur-package renpy-git
 # else
- 	PRE_BUILD_CMDS='sed -i "s|'\''/usr/lib/renpy/renpy.py'\''|renpy.py|" ./renpy-launcher.sh && sed -i "s|'\''1fc31125ce1a6be454e2e5995da1ba4860db6da687dbfffbca80a06f64aba43c'\''|'\''SKIP'\''|" ./PKGBUILD' make-aur-package renpy
+make-aur-package renpy
+ 	#PRE_BUILD_CMDS='sed -i "s|'\''/usr/lib/renpy/renpy.py'\''|renpy.py|" ./renpy-launcher.sh && sed -i "s|'\''1fc31125ce1a6be454e2e5995da1ba4860db6da687dbfffbca80a06f64aba43c'\''|'\''SKIP'\''|" ./PKGBUILD' make-aur-package renpy
 # fi
