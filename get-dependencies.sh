@@ -7,8 +7,16 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-    libdecor \
-    sdl2
+    assimp              \
+    ftgl                \
+    libdecor            \
+    python-ecdsa        \
+    python-legacy-cgi   \
+    python-pygame-sdl2  \
+    sdl2_gfx            \
+    sdl2_image          \
+    sdl2_mixer          \
+    sdl2_ttf
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
