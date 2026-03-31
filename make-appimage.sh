@@ -13,7 +13,7 @@ export DEPLOY_OPENGL=1
 export DEPLOY_SYS_PYTHON=1
 
 # Deploy dependencies
-quick-sharun /usr/lib/renpy/renpy.py
+quick-sharun ./AppDir/bin/renpy.py
 
 # Additional changes can be done in between here
 
