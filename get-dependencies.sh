@@ -37,3 +37,5 @@ make-aur-package python-sphinx_rtd_dark_mode
 make-aur-package renpy
  	#PRE_BUILD_CMDS='sed -i "s|'\''/usr/lib/renpy/renpy.py'\''|renpy.py|" ./renpy-launcher.sh && sed -i "s|'\''1fc31125ce1a6be454e2e5995da1ba4860db6da687dbfffbca80a06f64aba43c'\''|'\''SKIP'\''|" ./PKGBUILD' make-aur-package renpy
 # fi
+mkdir -p ./AppDir/bin
+mv -v /usr/lib/renpy/* ./AppDir/bin
