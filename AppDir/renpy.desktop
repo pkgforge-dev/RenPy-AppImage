@@ -8,5 +8,5 @@ Comment[fr]=Un langage de programmation et un ex�cutable con�us pour facilit
 Icon=renpy
 Exec=renpy.py
 Terminal=false
-StartupWMClass=
+StartupWMClass=python
 Categories=Game;AdventureGame;
