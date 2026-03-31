@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name="Ren'Py"
+GenericName= renpy 
+GenericName[fr]= renpy
+Comment=A programming language and runtime, intended to ease the creation of visual-novel type games. 
+Comment[fr]=Un langage de programmation et un ex�cutable con�us pour faciliter la cr�ation de jeux de type "visual-novel"
+Icon=renpy
+Exec=renpy.py
+Terminal=false
+StartupWMClass=python
+Categories=Game;AdventureGame;
