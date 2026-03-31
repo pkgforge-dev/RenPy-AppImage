@@ -11,9 +11,9 @@
 </p>
 
 
-| Latest Stable Release | Upstream URL |
-| :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/RenPy-AppImage/releases/latest) | [Click here](https://github.com/renpy/renpy) |
+| Latest Stable Release | Latest Nightly Relase | Upstream URL |
+| :---: | :---: | :---: |
+| [Click here](https://github.com/pkgforge-dev/RenPy-AppImage/releases/latest) | [Click here](https://github.com/pkgforge-dev/RenPy-AppImage/releases/tag/nightly) | [Click here](https://github.com/renpy/renpy) |
 
 </div>
 
