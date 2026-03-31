@@ -14,7 +14,7 @@ export DEPLOY_SYS_PYTHON=1
 
 # Deploy dependencies
 chmod +x ./AppDir/bin/renpy.py
-quick-sharun ./AppDir/bin/renpy.py
+quick-sharun ./AppDir/bin/* #./AppDir/bin/renpy.py
 
 # Additional changes can be done in between here
 
