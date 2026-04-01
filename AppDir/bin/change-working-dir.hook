@@ -1,0 +1,4 @@
+#!/bin/sh
+dir=$HOME/.renpy
+mkdir -p "$dir"
+cd "$dir"
